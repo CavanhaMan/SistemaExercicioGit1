@@ -1,0 +1,144 @@
+    1  git remote add origin https://github.com/CavanhaMan/Cavanha-URI.git
+    2  LS
+    3  dir
+    4  cd users
+    5  cd /
+    6  cd users
+    7  dir
+    8  cd ..
+    9  dir
+   10  echo "# Cavanha-URI" >> README.md
+   11  git init
+   12  git add README.md
+   13  git commit -m "first commit"
+   14  git remote add origin https://github.com/CavanhaMan/Cavanha-URI.git
+   15  git push -u origin master
+   16  dir
+   17  cd
+   18  dir
+   19  exit
+   20  d:
+   21  cd d:
+   22  cd CavanhaMan/
+   23  ls
+   24  cd SistemaExercicioGit1/
+   25  ls
+   26  git init SistemaExercicioGit1
+   27  cd ..
+   28  git init SistemaExercicioGit1
+   29  git status
+   30  cd SistemaExercicioGit1/
+   31  git status
+   32  git add .
+   33  git status
+   34  vi .gitignore
+   35  ls
+   36  git status
+   37  git add .
+   38  vi .gitignore
+   39  git rm .
+   40  git rm -r
+   41  git rm . -r
+   42  git rm build
+   43  git rm .
+   44  git rm /?
+   45  git rm . -r
+   46  git status
+   47  git commit -m “Versão Inicial do
+   48  git commit -m “Versão Inicial do Sistema"
+   49  git commit -m "Versão Inicial do Sistema"
+   50  git log
+   51  git log --oneline
+   52  git log --stat
+   53  git status
+   54  git add .
+   55  git status
+   56  git commit -m "Inclusao da classe Cliente"
+   57  git status
+   58  git add .
+   59  git commit -m "Inclusao da classe Cliente"
+   60  git log --stat
+   61  git add .
+   62  git commit -m "Inclusao da classe Cliente"
+   63  git log --stat
+   64  git log
+   65  it add .
+   66  git add .
+   67  git commit -am "Adicao do campo nome"
+   68  git diff
+   69  ls
+   70  git diff src/Cliente.java
+   71  git diff Cliente.java
+   72  git diff Cliente.java
+   73  git diff src/Cliente.java
+   74  git diff src/Cliente.java --staged
+   75  git diff --staged
+   76  gid add .
+   77  git add .
+   78  git diff --staged
+   79  git commit -am "Inclusao do campo id"
+   80  git log --oneline
+   81  git diff
+   82  git diff --staged
+   83  git diff e8f8937
+   84  git diff b03d281
+   85  ls
+   86  cd src
+   87  ls
+   88  move Cliente.java model/domain
+   89  mv Cliente.java model/domain
+   90  ls
+   91  cd model/
+   92  ls
+   93  cd domain/
+   94  ls
+   95  ls
+   96  gid add .
+   97  git add .
+   98  git commit -am "Movendo a classe Cliente para o pacote model.domain.Cliente"
+   99  git log -n 2
+  100  git status
+  101  git reset Cliente.java
+  102  git status
+  103  git checkout Cliente.java
+  104  git add .
+  105  git status
+  106  git reset HEAD Cliente.java
+  107  git status
+  108  git add .
+  109  git status
+  110  git commit -am "Inclusao do campo salario"
+  111  git reset Cliente.java
+  112  git status
+  113  git reset -- Cliente.java
+  114  git status
+  115  git log --oneline
+  116  git add .
+  117  git commit -am "Inclusao da classe connta"
+  118  git status
+  119  git rm Conta.java
+  120  git commit -am "Remocao da classe Conta"
+  121  history
+  122  history > historico.txt
+  123  git commit -am "Inclusao do historico de comandos"
+  124  ls
+  125  git add .
+  126  git commit -am "Inclusao do historico de comandos"
+  127  git remote add origin https://github.com/CavanhaMan/SistemaExercicioGit1
+  128  git push origin master
+  129  git fetch pb
+  130  git fetch
+  131  git push origin master
+  132  git pull origin master
+  133  git pull SistemaExercicioGit1
+  134  git pull origin 
+  135  git pull origin SistemaExercicioGit1
+  136  git pull origin master
+  137  git push origin master --force
+  138  ls
+  139  cd ..
+  140  cd ..
+  141  ls
+  142  cd ..
+  143  vim readme.md
+  144  history > historico.txt
